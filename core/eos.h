@@ -86,8 +86,6 @@ typedef struct tcb {
 	addr_t stack_base;
 	size_t stack_size;
 	addr_t stack_ptr;
-	_os_node_t rq_node;
-	eos_alarm_t alarm;
 } eos_tcb_t;
 
 /*
